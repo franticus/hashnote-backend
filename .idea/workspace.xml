@@ -16,7 +16,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../hashnote" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -47,7 +47,7 @@
       <workItem from="1630321606032" duration="13179000" />
       <workItem from="1630389267874" duration="596000" />
       <workItem from="1630400927750" duration="6851000" />
-      <workItem from="1630481421188" duration="1762000" />
+      <workItem from="1630481421188" duration="3262000" />
     </task>
     <servers />
   </component>
@@ -63,10 +63,10 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="0" y="183" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1630319906000" />
-    <state x="260" y="283" key="FileChooserDialogImpl" timestamp="1630400958266">
+    <state x="260" y="283" key="FileChooserDialogImpl" timestamp="1630484088653">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="260" y="283" key="FileChooserDialogImpl/0.0.1920.1050@0.0.1920.1050" timestamp="1630400958266" />
+    <state x="260" y="283" key="FileChooserDialogImpl/0.0.1920.1050@0.0.1920.1050" timestamp="1630484088653" />
     <state width="937" height="285" key="GridCell.Tab.0.bottom" timestamp="1630320857975">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>

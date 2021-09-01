@@ -5,7 +5,7 @@ const jsonParser = express.json();
 const app = express();
 const PORT = process.env.PORT || 8080
 app.use(cors({
-    origin: 'http://localhost:3000'
+    origin: 'https://stark-shelf-84244.herokuapp.com'
 }));
 
 app.listen(PORT, () => {
