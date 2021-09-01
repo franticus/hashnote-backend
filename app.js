@@ -1,23 +1,21 @@
 const express = require("express");
 const cors = require('cors');
+const app = express();
 const fs = require("fs");
 const jsonParser = express.json();
-const app = express();
 const PORT = process.env.PORT || 8080
-app.use(cors({
-    origin: 'https://stark-shelf-84244.herokuapp.com'
-}));
+app.use(cors());
 
 app.listen(PORT, () => {
     console.log("Server running");
 });
 
 const filePath = "notes.json";
-app.all('/', function (req, res, next) {
-    res.header("Access-Control-Allow-Origin", "*");
-    res.header("Access-Control-Allow-Headers", "X-Requested-With");
-    next();
-});
+// app.all('/', function (req, res, next) {
+//     res.header("Access-Control-Allow-Origin", "*");
+//     res.header("Access-Control-Allow-Headers", "X-Requested-With");
+//     next();
+// });
 
 app.get("/notes", function (req, res) {
     const content = fs.readFileSync(filePath, "utf8");
