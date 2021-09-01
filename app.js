@@ -11,11 +11,6 @@ app.listen(PORT, () => {
 });
 
 const filePath = "notes.json";
-// app.all('/', function (req, res, next) {
-//     res.header("Access-Control-Allow-Origin", "*");
-//     res.header("Access-Control-Allow-Headers", "X-Requested-With");
-//     next();
-// });
 
 app.get("/notes", function (req, res) {
     const content = fs.readFileSync(filePath, "utf8");
